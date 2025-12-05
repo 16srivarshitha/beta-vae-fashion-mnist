@@ -118,19 +118,19 @@ data:
 ### Latent Space Evolution
 The project generates animated GIFs showing how the latent space organization improves during training:
 
-![Latent Space Evolution](outputs/figures/latent_evolution_beta_1.0.gif)
+![Latent Space Evolution](outputs/figures/latent_reconstruction_evolution_beta_1.0_srivarshitha.m.gif)
 
 *Latent space evolution for β=1.0 showing progressive class separation*
 
 ### Training Curves
 Comprehensive tracking of loss components:
 
-![Training Curves](outputs/figures/training_curves_beta_1.0.png)
+![Training Curves](outputs/figures/training_curves_beta_1.0_srivarshitha.m.png)
 
 ### Generated Samples
 Samples from N(0, I) showing generation quality:
 
-![Generated Samples](outputs/figures/generated_samples.png)
+![Generated Samples](outputs/figures/generated_samples_srivarshitha.m.png)
 
 ## Experiments
 
@@ -172,23 +172,8 @@ where β controls the regularization strength.
 - **Epochs**: 30
 - **Device**: CUDA (if available)
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{vae-fashion-mnist-2025,
-  author = {Srivarshitha M},
-  title = {β-VAE for Fashion-MNIST: Exploring the Reconstruction-Regularization Trade-off},
-  year = {2025},
-  publisher = {GitHub},
-  url = {https://github.com/16srivarshitha/beta-vae-fashion-mnist}
-}
-```
-
 ## License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE.md) file for details.
-
 
 ## Acknowledgments
 
